@@ -1,0 +1,14 @@
+/* 😡 */
+
+@keyframes colorChange {
+  0% { background-color: red; }
+  50% { background-color: rgb(30, 255, 0); }
+  100% { background-color: red; }
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation: colorChange 2s infinite;
+}
